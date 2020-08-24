@@ -6,7 +6,7 @@ $(function () {
         '    <div style="border-top: 1px solid black;">\n' +
         '        <p>客服向你发出邀请！</p>\n' +
         '        <button id="accpt_chat_invite">接受邀请</button>\n' +
-        '        <button id="decline_chat_invite">拒绝邀请</button>\n' +
+        '        <button id="decline_fast_invite">拒绝邀请</button>\n' +
         '    </div>\n' +
         '    </div>\n' +
         '</div>';
@@ -26,13 +26,17 @@ $(function () {
     $('body').append(append);
     $('body').append(invite);
 
+    frame1 = window.frames[0];
+
     $(document).on('click', '#accpt_chat_invite', function () {
         $('#mf_chat_frame').css('display','block');
         $('#inviteWindow').hide();
+        frame1.postMessage('accept_fast_invite','*');
     });
 
-    $(document).on('click', '#decline_chat_invite', function () {
+    $(document).on('click', '#decline_fast_invite', function () {
         $('#inviteWindow').hide();
+        frame1.postMessage('decline_fast_invite','*');
     });
 
     window.addEventListener('message',function(e){
@@ -48,10 +52,10 @@ $(function () {
     },false);
 
     window.onload = function () {
-        var frame1 = window.frames[0];
+        // frame1 = window.frames[0];
         // frame1.postMessage(window.location.protocol + '//' + window.location.host, '*');
-        frame1.postMessage(window.location.href, '*');
-    }
+        frame1.postMessage('clientUrl:' + window.location.href, '*');
+    };
 
     function simpleAjax(url,data,ifAsync = true) {
         var result;
@@ -72,4 +76,4 @@ $(function () {
         });
         return result;
     }
-})
+});
