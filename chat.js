@@ -13,7 +13,7 @@ $(function () {
 
     var http = '';
     if(server === 'local') http = 'http://127.0.0.1:8080/';
-    else if(server === 'dev') http = 'http://127.0.0.1:8080/';
+    else if(server === 'dev') http = 'http://120.77.216.162:8080/';
     else if(server === 'pro') http = 'http://127.0.0.1:8080/';
     else console.log('环境文件缺失');
 
