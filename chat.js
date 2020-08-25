@@ -9,8 +9,7 @@ $(function () {
         '        <button id="decline_fast_invite">拒绝邀请</button>\n' +
         '    </div>\n' +
         '    </div>\n' +
-        '</div>';
-   
+        '</div>'; 
     var http = '';
     if(server === 'local') http = 'http://127.0.0.1:8080/';
     else if(server === 'dev') http = 'http://120.77.216.162:8080/';
