@@ -1,7 +1,7 @@
 // document.write("<link rel='stylesheet' href='/chat.css' type='text/css' />");
 
 $(function () {
-    let invite = '<div id="inviteWindow" style="display: none;">\n' +
+    let invite = '<div id="inviteWindow" style="border:1px solid black;text-align: center;width: 300px;height: 155px;margin: auto;position: absolute;top: 0;left: 0;right: 0;bottom: 0;">\n' +
         '    <p>邀请窗口</p>\n' +
         '    <div style="border-top: 1px solid black;">\n' +
         '        <p>客服向你发出邀请！</p>\n' +

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="038f1e3e-434a-417b-8cae-aabdbda8c783" name="Default" comment="" />
+    <list default="true" id="038f1e3e-434a-417b-8cae-aabdbda8c783" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.465625">
+    <splitter split-orientation="horizontal" split-proportion="0.83229166">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -25,8 +27,8 @@
           <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/chat.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+                <state relative-caret-position="81">
+                  <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -106,7 +108,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="7" fullScreen="true">
     <option name="y" value="27" />
     <option name="width" value="894" />
     <option name="height" value="1053" />
@@ -168,15 +170,15 @@
       <workItem from="1597915109240" duration="6412000" />
       <workItem from="1598079737025" duration="3000" />
       <workItem from="1598229126931" duration="613000" />
-      <workItem from="1598320980566" duration="3366000" />
+      <workItem from="1598320980566" duration="4867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66372000" />
+    <option name="totallyTimeSpent" value="67873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="7" />
+    <frame x="0" y="-26" width="1920" height="1106" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="0" />
@@ -511,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="81">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
